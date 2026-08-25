@@ -1,9 +1,14 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
+        "appID": "234AS748WJ.com.VisionMusicPublishing.CueConductor",
         "appIDs": [
           "234AS748WJ.com.VisionMusicPublishing.CueConductor"
+        ],
+        "paths": [
+          "*"
         ],
         "components": [
           {
