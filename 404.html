@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>CueConductor</title>
+<meta name="robots" content="noindex">
+<script>
+// Old help links (/help/…) moved to help.cueconductor.app — carry the path over.
+if (/^\/help(\/|$)/.test(location.pathname)) {
+  location.replace("https://help.cueconductor.app/" + location.pathname.replace(/^\/help\/?/, "") + location.search + location.hash);
+}
+</script>
+<body style="margin:0;min-height:100vh;background:#0d0d0f;color:#f5f5f5;font:16px/1.55 -apple-system,BlinkMacSystemFont,sans-serif;display:grid;place-items:center">
+<div style="text-align:center;padding:2rem">
+<p style="font-size:1.4rem;margin:0 0 .5rem">That page isn't here.</p>
+<p style="color:#9a9a9a">Looking for help? It lives at <a style="color:#f5f5f5" href="https://help.cueconductor.app/">help.cueconductor.app</a>.</p>
+</div>
+</body>
