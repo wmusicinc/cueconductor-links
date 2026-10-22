@@ -8,9 +8,19 @@
           "FMUT6Y9ARJ.com.VisionMusicPublishing.CueConductor"
         ],
         "paths": [
+          "NOT /help",
+          "NOT /help/*",
           "*"
         ],
         "components": [
+          {
+            "/": "/help",
+            "exclude": true
+          },
+          {
+            "/": "/help/*",
+            "exclude": true
+          },
           {
             "/": "/*"
           }
